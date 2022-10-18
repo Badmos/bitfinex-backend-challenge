@@ -65,4 +65,4 @@ While the code currently supports further optimizations, Given enough time, we c
 - Increase communication performance
 - Backup and restore the order book to prevent losing data
 - Add monitoring and observability to improve availability
-- Fix minor bugs like issue with socket hangup
+- Fix minor intermittent bug which causes with socket hangup

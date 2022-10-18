@@ -34,7 +34,7 @@ setInterval(function () {
 service.on('request', (rid, key, payload, handler) => {
   const order = getOrderBook(payload);
 
-  const processedOrder = order.process(payload.buyOrders[1]);
+  const processedOrder = order.process(payload.buyOrders[2]);
 
   console.log('ProcessedOrder', processedOrder)
 
