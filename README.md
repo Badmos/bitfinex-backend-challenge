@@ -1,4 +1,4 @@
-# Bitfinex Backend Programming Challenge
+# Distributed Exchange
 ## Author
 
 Yusuf Badmos 
@@ -56,13 +56,3 @@ Code is hot-reloaded, but may take a few seconds to correctly reload.
 ## Local resources
 Local data is stored under `data.js`.
 The service matching engine lives in server/src/matching-engine.js.
-
-
-## Notes
-While the code currently supports further optimizations, Given enough time, we can go forward to implement the following to make the matching engine more robust:
-- Use of a more efficient matching algorithm.
-- Add the ability to cancel orders
-- Increase communication performance
-- Backup and restore the order book to prevent losing data
-- Add monitoring and observability to improve availability
-- Fix minor intermittent bug which causes with socket hangup
