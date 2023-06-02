@@ -16,7 +16,7 @@ link.start()
 const peer = new PeerRPCClient(link, {})
 peer.init();
 
-peer.request('bitfinex_backend_challenge', orderBookPayload, { timeout: 10000 }, (err, response) => {
+peer.request('distributed_exchange', orderBookPayload, { timeout: 10000 }, (err, response) => {
   if (err) {
     console.error(err)
     process.exit(-1)

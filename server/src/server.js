@@ -28,7 +28,7 @@ const service = peer.transport('server')
 service.listen(port)
 
 setInterval(function () {
-  link.announce('bitfinex_backend_challenge', service.port, {})
+  link.announce('distributed_exchange', service.port, {})
 }, 1000)
 
 service.on('request', (rid, key, payload, handler) => {
